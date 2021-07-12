@@ -14,4 +14,6 @@ $(document).ready(function() {
         speedIn: 500,
         speedOut: 500,
     });
+
 });
+window.jQuery || document.write('<script src="js/jquery-3.6.0.js"><\/script>')
