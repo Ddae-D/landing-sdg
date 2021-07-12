@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("../media/wal.jpg");
+    background: #2C5364;
     background-size: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 1%;
@@ -79,4 +79,20 @@ body {
     margin: auto;
     width: 100%;
     border: 2px solid purple;
+}
+
+
+/*
+---------------------------------
+*/
+
+img {
+    border-bottom: 4px solid #fff;
+    margin: 0.7%;
+}
+
+#content-main .title-plugin {
+    font-size: 3em;
+    color: #fff;
+    margin: 1% 0 1% 1%;
 }
