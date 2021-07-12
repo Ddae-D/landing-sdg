@@ -1,5 +1,13 @@
 window.jQuery || document.write('<script src="js/jquery-3.6.0.js"><\/script>');
 $(document).ready(function() {
+    $("#list-tecno li a").click(function() {
+        var dir = $(this).attr("href"); //guardamos propiedad href de <a> al hacer click
+        $("#content-ajax").load(dir + " #content-main"); //carga a contenedor el atributo attr de etiqueta a
+        return false; //innhabilita contendido de etiqueta a
+    });
+});
+
+$(document).ready(function() {
     $("#content-main a[rel=gallery]").fancybox({
         overlayColor: "#2c3e50",
         opacity: true,
