@@ -150,3 +150,37 @@ label.error {
     font-weight: bold;
     margin-left: 20%;
 }
+
+
+/*
+
+*/
+
+#content-main #content-images {
+    width: 10%;
+    text-align: center;
+    left: -8%;
+    position: absolute;
+}
+
+#content-main #content-images img {
+    margin: 2%;
+    border-bottom: 2px solid #000;
+}
+
+#content-main #content-right {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#content-main #content-right p {
+    color: white;
+    font-size: 2.5em;
+}
+
+#content-main #content-right p::after {
+    content: " easing";
+    border: 2px solid white;
+    padding: .3%;
+}
